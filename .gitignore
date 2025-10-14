@@ -1,0 +1,21 @@
+# Bỏ qua môi trường ảo Python
+venv/
+.env
+
+# Bỏ cache, tạm, log
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# File Streamlit cache
+.streamlit/
+
+# VSCode và IDE
+.vscode/
+.idea/
+
+# Dữ liệu cục bộ
+data/
+users.json
